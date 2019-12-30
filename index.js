@@ -1,6 +1,6 @@
 const canvas = document.querySelector('#canvas');
-/* canvas 24 x 24 box => 2box on top use to show point and modeGame , 
-                         1box left and right use to creat the wall 
+/* canvas 24 x 24 box => 3box on top use to show point and modeGame , 
+                         1box left and right and bottom use to creat the wall 
                       => land for snake move is grid 20x20 box   */
 canvas.width = 528;  // 22 box (box = 24)
 canvas.height = 528; // 22 box
